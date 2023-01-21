@@ -17,8 +17,6 @@ for(let i = 0; i <= activeNav.length; i++) {
 		navAwsome[i].style.color = "#fff";
 		ancer[i].style.color = "#fff";
 	});
-
-
 }
 
 
