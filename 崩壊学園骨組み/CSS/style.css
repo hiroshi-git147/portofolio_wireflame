@@ -21,6 +21,17 @@ header {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 60px;
+  padding: 1rem;
+  border: solid black 1.7px;
+  border-radius: 20% 10%;
+}
+
 header ul {
   display: flex;
   justify-content: space-evenly;
@@ -34,7 +45,7 @@ header ul li {
   width: 60px;
   height: 60px;
   background: white;
-  border: solid black 1.3px;
+  border: solid black 1.7px;
   border-radius: 25% 10%;
 }
 
@@ -49,6 +60,18 @@ header ul li .double-border {
   background: rgb(173, 167, 167);
   border: solid rgb(173, 167, 167) 1px;
   border-radius: 25% 10%;
+}
+
+.nav-awsome, header ul li a {
+  color: #fff
+}
+
+main {
+  margin: 1rem 0;
+}
+
+.pickups h1 {
+
 }
 
 
