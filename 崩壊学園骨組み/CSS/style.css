@@ -6,6 +6,7 @@
   outline: none;
   border: none;
   text-decoration: none;
+  list-style: none;
   text-transform: capitalize;
   transition: 0.2s linear;
   color: #000;
@@ -38,7 +39,7 @@ header ul {
   justify-content: space-evenly;
 }
 
-header ul li {
+ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +51,7 @@ header ul li {
   border-radius: 25% 10%;
 }
 
-header ul li .double-border {
+ul li .double-border {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,18 +72,22 @@ main {
   margin: 1rem 0;
 }
 
-.pickups  {
+.pickups ul {
   margin: 0 auto;
-  width: 1480px;
+  width: 1240px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.pickups article {
-  border: solid #000 1px;
-  border-radius: 50%;
-  padding: 3rem;
-  margin: .5rem 4rem;
+.pickups ul li {
+	width: 250px;
+	height: 250px;
 }
+
+.pickups ul li .double-border {
+	width: 245px;
+	height: 245px;
+}
+
 
 
